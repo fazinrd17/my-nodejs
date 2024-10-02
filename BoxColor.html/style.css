@@ -1,0 +1,132 @@
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAF50; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: #4b51a7; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box3 {
+    width: 150px;
+    height: 150px;
+    background-color: #863253; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box4 {
+    width: 150px;
+    height: 150px;
+    background-color: #3d4b8b; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box5 {
+    width: 150px;
+    height: 150px;
+    background-color: #269188; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box6 {
+    width: 150px;
+    height: 150px;
+    background-color: #93bd30; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box7 {
+    width: 150px;
+    height: 150px;
+    background-color: #adcc20; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box8 {
+    width: 150px;
+    height: 150px;
+    background-color: #9b7ba1; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box9 {
+    width: 150px;
+    height: 150px;
+    background-color: #7b22b6; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box10 {
+    width: 150px;
+    height: 150px;
+    background-color: #7a99bd; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box11 {
+    width: 150px;
+    height: 150px;
+    background-color: #745875; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}
+.box12 {
+    width: 150px;
+    height: 150px;
+    background-color: #9bd39d; /* สีเขียว */
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* สีของตัวอักษร */
+    font-size: 16px; /* ขนาดตัวอักษร */
+}

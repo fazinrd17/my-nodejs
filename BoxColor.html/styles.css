@@ -1,0 +1,65 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 10px; 
+    justify-content: center; 
+}
+.item {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    font-size: 16px; 
+}
+.box1 {
+    background-color: aqua ;
+}
+.box2 {
+    background-color: rgb(116, 219, 156) ;
+    position :relative ;
+    top: 10px;
+    right: 50px;
+}
+.box3 {
+    background-color: rgb(83, 133, 133) ;
+}
+.box4 {
+    background-color: rgb(158, 141, 233) ;
+    position :sticky  ;
+    top: 10px;
+    right: 10px;
+}
+.box5 {
+    background-color: red ;
+}
+.box6{
+    background-color: blue ;
+}
+.box6 {
+    background-color: gold ;
+    position :absolute ;
+    top: 160px;
+    left: 100px;
+}
+.box7 {
+    background-color: brown ;
+}
+.box8 {
+    background-color: gray ;
+}
+.box9 {
+    background-color: black ;
+}
+.box10 {
+    background-color: greenyellow ;
+}
+.box11 {
+    background-color: palevioletred ;
+}
+.box12 {
+    background-color: peru ;
+}

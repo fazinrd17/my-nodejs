@@ -1,0 +1,18 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+p[class="note"] {
+  color: red;
+}
+#id-selector-demo {
+  color: green;
+}
+li[class="note1"] {
+  color: blue;
+}
+body{
+  text-align: center;
+}
+/* Write your CSS below, don't change the rules above. */

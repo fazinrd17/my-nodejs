@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ 
+}
+body{
+    background-image: linear-gradient(#A67B5B, #D0B490, #F2E5C4);
+
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* หรือใช้ contain ตามที่ต้องการ */
+}
+
+.content1 > div, .content2 > div > div {
+    padding: 10px
+}
+
+.header, .footer{
+    padding: 10px;
+}
+
+.wrapper{
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #D9A464;
+}
+
+.header, .footer, .content1, .content2>div>div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #8B5E34;
+}
+
+.main-container{
+    flex: 6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.content2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.content2>div{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+@media screen and (max-width: 800px){
+
+    .main-container>div{
+        min-width: 400px;
+    }
+
+    .content1{
+        flex: 100%;
+    }
+
+    .header{
+        min-height: 90px;
+    }
+
+    .footer{
+        min-height: 110px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .content2>div{
+        flex-direction: column;
+    }
+
+    .content2>div>div{
+        min-height: 200px;
+    }
+
+}

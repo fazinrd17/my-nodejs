@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4a3b2a; /* สีน้ำตาลเข้ม */
+    color: white;
+    padding: 1em 20px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Clearfix */
+    position: relative; /* ใช้ relative เพื่อจัดตำแหน่งขององค์ประกอบภายใน */
+}
+
+.header-image {
+    float: left; /* รูปภาพไปทางซ้าย */
+    width: 60px; /* กำหนดขนาดของรูปภาพ */
+    height: auto; /* ให้ความสูงปรับตามอัตราส่วนของรูปภาพ */
+    margin-right: 20px; /* เว้นระยะห่างระหว่างรูปภาพและข้อความ */
+    border: 2px solid #ddd; /* เพิ่มกรอบที่มีความหนา 2px และสีเทาอ่อน */
+    border-radius: 5px; /* ทำให้มุมของกรอบมน */
+}
+
+
+header h1 {
+    margin: 1;
+    font-size: 2em;
+    text-align: center; /* ให้ข้อความอยู่ด้านซ้าย */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางแนวตั้ง */
+    border-radius: 20px;
+    border: 4px solid #ffffff;
+    padding: 2rem;
+    max-width: 600px;
+    text-align: center ;
+    float: right;
+}
+
+.places {
+    padding: 0 10px;
+    overflow: hidden; /* Clearfix */
+}
+
+.place {
+    width: calc(24.50% - 1rem);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #c4a49e; /* สีน้ำตาลอ่อน */
+    border-radius: 8px;
+    background-color: #e8dcd4; /* สีครีมเอิร์ธโทน */
+    transition: transform 0.3s, box-shadow 0.3s;
+    float: left; 
+    margin-right: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.place img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0; /* ใช้ขอบมน */
+}
+
+.place h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #4a3b2a; /* สีน้ำตาลเข้ม */
+}
+
+.place p {
+    font-size: 1em;
+    color: #6c5b4e; /* สีน้ำตาลเข้ม */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .place {
+        width: calc(50% - 10px); /* ใช้ 50% สำหรับหน้าจอขนาดกลาง */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .place {
+        width: calc(100% - 10px); /* ใช้ 100% สำหรับหน้าจอขนาดเล็ก */
+    }
+}
+footer {
+    background-color: #4a3b2a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+}
